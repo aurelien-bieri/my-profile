@@ -1,0 +1,100 @@
+body { 
+	background-color: #ACE5F3;
+	color: #4080B7;
+	font-family: roboto,sans-serif;
+}
+
+h1 {
+	color: Black;
+	font-size: 90px;
+
+}
+
+h2{
+	font-size: 60px;
+
+}
+p{
+	font-size: 45px;
+	text-justify: center;
+}
+
+ul{
+	font-size: 45px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+	color: #4080B7;
+	padding:15px 20px;
+	border-radius: 7px;
+	font-size: 45px;
+}
+
+
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+i{
+	block-size: 60px;
+}
+
+/*Custom design with class*/
+
+	
+.card-white{
+	background: #DEF3FA;
+	padding: 50px;
+	border-radius: 70px;
+	box-shadow: 0px 10px 30px rgba 0,0,0,.1;
+	width: 2000px;
+	margin: 0 auto;
+	border:2px #DEF3FA;
+	text-align: center;
+	text-justify: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.picture-profil{
+	box-shadow: 6px 6px 8px rgba 50,50,93,.1;
+	border-radius: 50%;
+	block-size: 600px;
+}
+
+.list-inline{
+	list-style: none;
+	padding:10px;
+	padding-left: 0px;
+	color: #4080B7;
+	Display:line;
+	font-size: 80px;
+
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+	font-size: 120px;
+}
+
+.list-inline i{
+	font-size: 120px;
+	background-color: #DEF3FA;
+}
+
+@media (max-width:500px){
+	.card-white{
+		width: 400px;
+		margin: 10px auto;
+		margin-bottom: 50px;
+		margin-top: 50px;
+}
+
+
+
+
+
